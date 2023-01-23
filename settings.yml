@@ -1,0 +1,999 @@
+---
+
+api_id: 28419441
+api_hash: 5306d20415791ceed2fa6b7023f6af0c
+app_short_name: Telegram Android
+phone_number: "+6283871417984"
+# this has to be in quotes to ensure it is treated as a string
+# e.g. phone_number: "+18888675309"
+
+splay: 3
+# configurable randomness of when channels connect and messages are sent;
+# we recommend increasing this number when connecting to many (10+)
+# channels to avoid the dreaded FloodWaitError; it is preferable to use
+# prime numbers for maximum randomness
+
+messages:
+  one: |
+    JUAL NOKOS USA MURMER!
+    
+    lagi cari nokos luar tapi susah banget, sekali ketemu mahalnya sampe ke ubun ubun?? yuk buru kepoin dagangan saya!
+    
+    pricelist
+    nokos telegram usa 5k/40kc
+    nokos wa usa 7,5k/50kc
+    
+    payment melalui dana, cnit, ovo, dan shopepay.
+    
+    selain itu, saya juga menyediakan GC RESSELER buat kalian yang butuh banyakk stock nokos, dijamin harganya juga lebih murah! ❤️‍🔥�
+    
+    
+    store @StoreOmMike
+    contact : @OmMikeStore
+  two: |
+    JUAL NOKOS USA MURMER!
+    
+    lagi cari nokos luar tapi susah banget, sekali ketemu mahalnya sampe ke ubun ubun?? yuk buru kepoin dagangan saya!
+    
+    pricelist
+    nokos telegram usa 5k/40kc
+    nokos wa usa 7,5k/50kc
+    
+    payment melalui dana, cnit, ovo, dan shopepay.
+    
+    selain itu, saya juga menyediakan GC RESSELER buat kalian yang butuh banyakk stock nokos, dijamin harganya juga lebih murah! ❤️‍🔥�
+    
+    
+    store @StoreOmMike
+    contact : @OmMikeStore
+
+raid:
+  https://t.me/Hirminstorebagroup:
+    message_type: one
+    # this is in seconds, so the below example is equal to 3 seconds
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 30
+  https://t.me/LPMBAGINOKOS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send messages `one` and `two`
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/cnit_lpm:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_SFS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_Roleplayers:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpm_cnit:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_JUALANTRADE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMM_NOKOSS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/Lpm_nokosss:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LpmCnit:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_Roleplayer_2:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LpmNokos:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpm_jualann:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmnokosluarr:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpm_roleplay:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMIRENEBAE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/Lpmpluffsy:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_JUAL_BELI_NOKOS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LpmMisky:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/CHACHALPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmsebas:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmrpanimek:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmleena:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMVAN1:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMSHOHEI:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >  
+    wait_interval: 30
+  https://t.me/LPMSULLYOON:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >                                                                                                    >
+    wait_interval: 30
+  https://t.me/lpm_yunjin:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >                                                                                                    >
+    wait_interval: 30
+  https://t.me/lpmlulel:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >                                                                                                    >
+    wait_interval: 30
+  https://t.me/LPMLULEL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >                                                                                                    >
+    wait_interval: 30
+  https://t.me/ouchilpm:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >                                                                                                    >
+    wait_interval: 30
+  https://t.me/LPM_KELINCI:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >                                                                                                    >
+    wait_interval: 30
+  https://t.me/LPM_SHAFA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >              >
+    wait_interval: 30
+  https://t.me/LPMTAKINA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >              >
+    wait_interval: 30
+  https://t.me/LPMLEGAL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >              >
+    wait_interval: 30
+  https://t.me/LPMAKSLN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >              >
+    wait_interval: 30
+  https://t.me/LPMSGTN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >              >
+    wait_interval: 30
+  https://t.me/rpjualbeli:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >              >
+    wait_interval: 30
+  https://t.me/LPMSEUNGMIN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMPENGKUDETA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJlS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMTEMARU:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJIAN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/SKZOOLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_CY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_PAPI:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_FINA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJAKEX:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMPAARKJAY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_KIMGARAM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_MT:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMPOBIE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMBSGROUP:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMVNKTSH:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMNATORI:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMTKVJK:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMKRPP:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJEHIAN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/Lpm_Hyunjin:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMKAZUHA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMRPBUBBLE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/PMSACHILLA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMLUNNA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LOOKISMLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/TONGKRONGANWIL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMEANIE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMUNDEAD:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMRAIZEL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/EBERLYLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMURVIL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMNATTO:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmvanills:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmvanzakki:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpm_roleplayers_2:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJENNIERUBYJANE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/GENTALPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMANIMEMARIONETTE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMWOLPPY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMBRIGANZFAMILY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMPABLO:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/AURORA_LPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  :https://t.me/LPMLUXURY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJENIVEY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMMELODY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmclaviera:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/lpmfotbarpi:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMSATORU:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmpicii:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJEMIAN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/BELAYOURLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMDICKIDS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lapakfessgrup:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/QUEENLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMDICKADS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/CBLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/SKATE_LPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/GIMYUNGLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMAKSLN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMTREASURETEUME:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJUALBELI_33:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/SHEINALPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lmpmysecret:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMTWICEE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMRAJENN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMAGASS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_AUREEN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMJAKI:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LUSHFLAKELPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmJlS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/NOELGANELPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMGALAKSII:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMCHERRY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/lpmrolpla:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMGREATNESSX:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPM_NEBULA_ORION:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMHYUNSUK:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMUNISEX:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMDVILYIA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMLOVETEENS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/LPMCAREL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMREYA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMBIXENTA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMPENGKUDETA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/lpmvlxiaa:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/BIANDRALPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMRPO:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/lpmkimsejeong:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/OUSSIELPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMDUCEY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMBEBE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPKDORAEMON:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/RAVYALPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMTAETAE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMVINCANZA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMZAAMI:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMARCHITA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMANDA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMVANREV:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMKEP1ER:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMSGHB:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMAURISTEL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMSTUCA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMRAETH:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMAESPHENCTS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMWOC:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMLEADGARD:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/WOLLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMBATCY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMCESSIE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/lpmddevanescent:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/chochocooo:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMARDIKA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMSANGWON:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMCUPCAKE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMREDVELVET:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMSHEINA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMBELLZ:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMWIHANANDAS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMIVE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMLEESAEROM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/FALCODRASLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMCOMPANY:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LGBTBARLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMZHAN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPM_ALRA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMALOFC:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMBATARA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMLYL:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMSFTAEHYUNG:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMCELLISHE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/MEANIELPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMJBU:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMABRYAN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMNOLEPIES:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMLYGOPHILIC:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMVIVIZ:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMCB:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMGEOVANNO:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPM_ROLEPLAYER_PM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/SENDBIORPILENS:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPM_NITROSEEN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMJUALANTRADDE:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30
+  https://t.me/ROOMLPM:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMSKAYA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMREBECCA:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/LPMCRYSTAN:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30 
+  https://t.me/THELUXBAR:
+    message_type: two
+    # a channel can send multiple message types, so the below example will send >
+    # the bot will send one message per wait interval in sequence
+    wait_interval: 30                                                                                                                                                                                                              
+    message_type:
+    - one
+    - two
+    # this is in seconds, so the below example is equal to 5 minutes
+    # we recommend at least 900 seconds, which is equal to 15 minutes
+    wait_interval: 30
+    # this is in seconds, so the below example is equal to 1 minute
+    increase_wait_interval: 60
+    # a channel can limit the total number of messages sent, so the below example will send a maximum of 10 messages
+    total_messages: 999910
+    # this assumes the image's path is relative to the script `tg_shill_bot.py`
+    image: images/cd.jpg
+
+########################################################
+### !! DANGER ZONE !!
+### >> only config below if you know what you are doing
+########################################################
+# this is a Python lambda function -- it is used to construct a formatted message that
+# takes 2 inputs (random message 1 & random message 2) and returns a single string that
+# is appened to your primary message
+# this lambda will be eval'ed during runtime, so please becareful and know what you are doing
+# before modifying
+random_message_format: |
+  lambda rm3, rm4 : rm3 + " & " + rm4 + "!"
+
+# this is a list of random "thank yous" that will be used to create a random message
+# that will be appended to your primary message to avoid TG banning -- SEE FAQs
+random_message:
+- Nokos Termurah 
+- Joim
+- Nokos Luar
+- bisa via cnit
